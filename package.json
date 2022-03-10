@@ -1,0 +1,21 @@
+{
+  "name": "node-aulas",
+  "version": "1.0.0",
+  "description": "Estudo de Node.js - Maik Brito -",
+  "main": "console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcioRMed/Node-Aulas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcioRMed/Node-Aulas/issues"
+  },
+  "homepage": "https://github.com/MarcioRMed/Node-Aulas#readme"
+}
