@@ -15,9 +15,13 @@ app.get('/sobre', function (req, res) { //sub pasta
   res.render('pages/about');
 })
 
+app.get('/contatos', function (req, res) {
+  res.render('pages/contact');
+})
+
 
 // localhost:8080
-app.listen(8080, () => console.log('Rodando...'));
+app.listen(8080, () => console.log('Servidor Rodando...'));
 
 
 

@@ -1,23 +1,16 @@
-<!DOCTYPE html>
-
 <%- include('../partials/head'); %>
 
-<body class="container">
+<%- include('../partials/navbar', {pagina: 'SOBRE'}); %>
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    
-  <%- include('../partials/navbar'); %>
-
-  <main class="container">
+<body>
+  <main>
     <div>
       <h1>Sobre mim</h1>
-      <p>Oi sou o Márcio R. Medeiros Desenvolvedor</p>
+      <p>Oi meu nome é Márcio R. Medeiros trabalho como  Desenvolvedor de páginas e aplicativos</p>
     </div>
   </main>
-
-  </div>
+  
+  <%- include('../partials/footer'); %>
 </body>
 
-<%- include('../partials/footer'); %>
 
-</html>
