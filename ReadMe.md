@@ -1,5 +1,17 @@
 Estudo de Node.js - Maik Brito -
 
+Esse material foi construido apartir das aulas que estou estudando. São minhas anotações.
+
+Obs.
+        Se houver algum erro de ortografia me perdoe, ainda não parei para revisar o português.
+        Não trabalhe a formatação com Markdown ainda...
+
+
+Notion - pelo Notion consegue visualizar as imagens, e cores do documento
+
+https://decorous-roarer-e8d.notion.site/Node-introdu-o-Maik-Brito-9b8d6426235c47b5a4dcb785e3a0169f
+
+
 
 # Node -introdução- Maik Brito
 
@@ -8,16 +20,6 @@ Rocketseat - estudo
 Material complementar
 
 Prática C:\Users\Márcio\Desktop\DADOS\DEV_Programação\CURSOS\PROFESSORES\NODE_JS\MAIK BRITO\Node-Aulas
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed3343b0-aedd-46b2-93bb-e501dec90897/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a04195e7-19d3-4609-b99d-d041f94352b2/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5412cb1-db86-411b-ad69-5300e53f2279/Untitled.png)
-
----
-
--
 
 ### TERMINAL Comandos
 
@@ -145,13 +147,11 @@ vai mudar todas a versões
 
 npm i moment@1.5.1  - alterar para uma versão específica
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11c2170d-931b-456d-96cc-e5df5b35f551/Untitled.png)
 
 1high severity vulnerabilty - problemas de vunabilidade
 
 npm outdated - verifica versões
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58a19896-c3dc-4eeb-843b-3899d847e177/Untitled.png)
 
 Current - atual
 
@@ -163,6 +163,6 @@ npm upgrade - vai atualiza como mais desejada
 
 npm i moment@latest  - atualiza a ultima versão
 
-### Desistar pacote
+### Desinstar pacotes
 
 npm uninstall moment - remove o pacote  - package.json e node_modules
