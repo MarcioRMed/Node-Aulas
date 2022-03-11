@@ -5,6 +5,17 @@ const questions = [
   "Quantas pessoas ajudei hoje?",
 ];
 
+console.log(
+  
+  `\n 
+  +++ Bem vindo! +++
+  
+  # Encontre sua melhor versão!
+  # Use o App ao final de cada dia para refletir sobre sua jornada.
+  # Respondas as perguntas`
+  
+  )
+
 const ask = (index = 0) => {
   process.stdout.write("\n\n" + questions[index] + " => ")
 }
