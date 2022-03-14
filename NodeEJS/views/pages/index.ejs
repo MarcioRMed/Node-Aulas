@@ -1,14 +1,25 @@
-<%- include('../partials/head.ejs'); %>
+<%- include('../partials/head.ejs'); %> <%- include('../partials/navbar');%>
 
-<%- include('../partials/navbar', {pagina: 'HOME'});%>
-
-<body>  
+<body>
   <main>
     <div>
-     <h1>Node com EJS</h1>
-     <p>Vamos aprender a trabalhar com arquivos EJS</p>
+      <h1>Node com EJS</h1>
+      <p>Vamos aprender a trabalhar com arquivos EJS</p>
+      <p> <%= subtitle %> </p>
     </div>
-    </main>
+  </main>
 
+  
+
+
+  <ul>
+     <% qualitys.forEach(function (item){ %>
+      <li>
+        <strong> <%= item.title %> => </strong> <%= item.message %>
+      </li>
+      <% }) %> 
+  </ul>
+
+  
   <%- include('../partials/footer'); %>
 </body>

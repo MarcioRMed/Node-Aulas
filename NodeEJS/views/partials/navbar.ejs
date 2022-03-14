@@ -1,15 +1,26 @@
 <header>
   <div>
-    
-    <p> <%- pagina %></p>
-
-    <h3>EJS</h3>
+    <p><%= typeof pagina != 'undefined' ? pagina: 'HOME' %></p>
 
     <nav>
-      <a href="/">Home</a>
-      <a href="/sobre">About</a>
-      <a href="/contatos">Contatos</a>
-    </nav>
+      <ul>
+        <li>
+          <h3>EJS</h3>
+        </li>
 
+        <li>
+          <a href="/">Home</a>
+        </li>
+
+        <li>
+          <a href="/sobre">About</a>
+        </li>
+        
+        <li>
+          <a href="/contatos">Contatos</a>
+        </li>
+
+      </ul>
+    </nav>
   </div>
 </header>
