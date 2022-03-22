@@ -163,6 +163,6 @@ npm upgrade - vai atualiza como mais desejada
 
 npm i moment@latest  - atualiza a ultima versão
 
-### Desinstar pacotes
+### Desinstalar pacotes
 
 npm uninstall moment - remove o pacote  - package.json e node_modules
